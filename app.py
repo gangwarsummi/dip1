@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st 
 import numpy as np
 import cv2
@@ -39,7 +38,7 @@ if st.button("Change Color"):
   result=change_color(image)
 
 if st.button("About"):
-  st.subheader("Developed by Prashant Jain")
+  st.subheader("Developed by shubhangi gangwar")
   st.subheader("PGI")
 html_temp = """
    <div class="" style="background-color:orange;" >
